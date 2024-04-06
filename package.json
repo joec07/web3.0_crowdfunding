@@ -1,0 +1,31 @@
+{
+  "name": "web3.0_crowdfunding",
+  "private": false,
+  "version": "0.0.2",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "ethers": "^5.7.2",
+    "web3": "^4.7.0",
+    "web3.0_send_transaction": "^0.0.0",
+    "zksync-web3": "^0.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joec07/web3.0_crowdfunding.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joec07/web3.0_crowdfunding.git/issues"
+  },
+  "homepage": "https://github.com/joec07/web3.0_crowdfunding.git#readme"
+}
